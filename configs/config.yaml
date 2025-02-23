@@ -1,0 +1,5 @@
+model_path: "models/model.tflite"  # Path to the model
+input_source: "data/sample_data.tflite"  # Input data source
+quantization: "int8"  # Quantization strategy (int8, float16, etc.)
+hardware: "tflite"  # Target hardware (tflite, coreml, metal)
+battery_threshold: 20  # Battery level threshold for model switching
